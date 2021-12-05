@@ -1,0 +1,16 @@
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\bin\Debug\netstandard2.0\ApiX.deps.json
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\bin\Debug\netstandard2.0\ApiX.dll
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\bin\Debug\netstandard2.0\ref\ApiX.dll
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\bin\Debug\netstandard2.0\ApiX.pdb
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\AddUsuario.xaml.g.cs
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\ApiX.csproj.CoreCompileInputs.cache
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\ApiX.AssemblyInfoInputs.cache
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\ApiX.AssemblyInfo.cs
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\ApiX.dll
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\ref\ApiX.dll
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\ApiX.pdb
+C:\Users\ALEX CARLO\source\repos\ApiX\ApiX\ApiX\obj\Debug\netstandard2.0\ApiX.csprojAssemblyReference.cache

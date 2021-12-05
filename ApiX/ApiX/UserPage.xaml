@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApiX.UserPage" Title="Pagina de Usuario">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar" Priority="0" Order="Primary" x:Name="BtnAdd" Clicked="BtnAdd_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout        
+        Margin="10,10,10,10">
+        <StackLayout
+            Orientation="Horizontal">
+            <Frame
+                CornerRadius="20"
+                WidthRequest="50"
+                HeightRequest="50"
+                HorizontalOptions="Start">
+                <Image
+                    Source="https://i.ytimg.com/vi/u2Ms34GE14U/maxresdefault.jpg"
+                    WidthRequest="200"
+                    HeightRequest="200" Aspect="AspectFill"/>
+            </Frame>
+            <Label
+                Text="API XAMARIN + php"
+                VerticalOptions="CenterAndExpand"
+                FontSize="Large"
+                FontAttributes="Italic"
+                Margin="20"
+                HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+            <StackLayout             
+            BackgroundColor="#0080FF"
+            Padding="5,5,5,5"
+            Margin="0,5,0,5">
+                <Label
+                Text="MIS USUARIOS"
+                TextColor="White"            
+                FontSize="Medium"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+            </StackLayout>
+            <ListView
+            x:Name="lista" BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Eliminar" x:Name="btnEliminar" Clicked="btnEliminar_Clicked" IsDestructive="true" CommandParameter="{Binding .}"></MenuItem>
+                            </ViewCell.ContextActions>
+                            <StackLayout Orientation="Horizontal">
+                                <Label 
+                                    Text="{Binding email}"
+                                    VerticalOptions="Start"
+                                    FontSize="Default"/>
+                                <Label 
+                                    Text="{Binding nombre}"
+                                    IsVisible="True"
+                                    FontSize="Body"
+                                    VerticalOptions="StartAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

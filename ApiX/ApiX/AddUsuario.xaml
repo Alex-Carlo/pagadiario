@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApiX.AddUsuario">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre"></Label>
+            <Entry Placeholder="Nombre" x:Name="txtNombre"></Entry>
+            <Label Text="Email"></Label>
+            <Entry  x:Name="txtEmail" Placeholder="Email" Keyboard="Email"></Entry>
+            <Label Text="Usuario"></Label>
+            <Entry Placeholder="Usuario" x:Name="txtUsuario"></Entry>
+            <Label Text="Contrasena"></Label>
+            <Entry Placeholder="******" x:Name="txtContra" IsPassword="True"></Entry>
+            <Button Text="Guardar" x:Name="btnGuardar" Clicked="btnGuardar_Clicked" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
